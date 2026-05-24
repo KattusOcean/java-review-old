@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Bean of Dev.java class -->
+    <bean id="dev" class="com.kattus.Dev" autowire="byType">
+<!--        <property name="age" value="19"/> &lt;!&ndash; For setters &ndash;&gt;-->
+<!--        <constructor-arg index="1" value="30"/> &lt;!&ndash; For constructor arguments (as inner properties we can set name or index (for multiple params)) &ndash;&gt;-->
+<!--        <constructor-arg index="0" value="David"/>-->
+<!--        <constructor-arg name="tech" value="Docker"/> &lt;!&ndash; For constructor arguments (as inner properties we can set name or index (for multiple params)) &ndash;&gt;-->
+
+<!--        <property name="laptop" ref="lap1"/>-->
+<!--        <property name="desktop" ref="desk1"/>-->
+
+<!--        <property name="computer" ref="computer"/> &lt;!&ndash; Not needed because <bean id="..." class="..." autowire="..."> &ndash;&gt;-->
+    </bean>
+
+    <!-- Another bean of Dev.java class -->
+<!--    <bean id="dev1" class="com.kattus.Dev">-->
+<!--        -->
+<!--    </bean>-->
+
+    <!-- Bean of Laptop.java class -->
+    <bean id="lap1" class="com.kattus.Laptop">
+    </bean>
+
+    <!-- Bean of Desktop.java class -->
+    <!-- Primary makes Spring take the one with it in case there is ambiguity -->
+    <bean id="desk1" class="com.kattus.Desktop" primary="true">
+    </bean>
+
+    <!-- Another bean of Desktop.java class using Computer's interface attribute as id -->
+    <bean id="computer" class="com.kattus.Desktop">
+    </bean>
+</beans>

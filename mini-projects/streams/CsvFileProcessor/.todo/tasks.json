@@ -1,0 +1,90 @@
+[
+  {
+    "id": "TASK_1",
+    "priority": "HIGH",
+    "tags": [],
+    "title": "Read CSV",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2026,
+        "month": 2,
+        "day": 19
+      },
+      "time": {
+        "hour": 16,
+        "minute": 42,
+        "second": 55,
+        "nano": 796503789
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_4",
+    "priority": "MEDIUM",
+    "tags": [],
+    "title": "Convert into objects",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2026,
+        "month": 2,
+        "day": 19
+      },
+      "time": {
+        "hour": 16,
+        "minute": 43,
+        "second": 31,
+        "nano": 204531943
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_7",
+    "priority": "MEDIUM",
+    "tags": [],
+    "title": "Filter and group data",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2026,
+        "month": 2,
+        "day": 19
+      },
+      "time": {
+        "hour": 16,
+        "minute": 43,
+        "second": 53,
+        "nano": 498199316
+      }
+    },
+    "isImported": false
+  },
+  {
+    "id": "TASK_11",
+    "priority": "MEDIUM",
+    "tags": [],
+    "title": "Save data into another file",
+    "description": "",
+    "status": "TODO",
+    "date": {
+      "date": {
+        "year": 2026,
+        "month": 2,
+        "day": 19
+      },
+      "time": {
+        "hour": 16,
+        "minute": 44,
+        "second": 14,
+        "nano": 196538781
+      }
+    },
+    "isImported": false
+  }
+]

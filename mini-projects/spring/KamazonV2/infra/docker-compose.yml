@@ -1,0 +1,17 @@
+services:
+  oracle-db:
+    image: container-registry.oracle.com/database/express:latest
+    container_name: oracle-db
+    ports:
+      - "1521:1521"
+      - "5500:5500"
+    environment:
+      - ORACLE_PWD=${ORACLE_PASSWORD}
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+      - oracle-backup:/opt/oracle/backup
+    restart: unless-stopped
+
+volumes:
+  oracle-data:
+  oracle-backup:

@@ -1,0 +1,11 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+
+### Configurations ###
+.env
+db.properties
+
+### System ###
+.DS_Store

@@ -1,0 +1,10 @@
+### IntelliJ IDEA ###
+out/
+*.iml
+.idea
+
+### Config properties ###
+
+
+Mac OS ###
+.DS_Store
